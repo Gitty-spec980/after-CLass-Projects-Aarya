@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MY HOBBIES!!</title>
+<Style>
+        body.dark{
+            Color: rgb(255, 0, 0);
+            background: rgb(0, 0, 0);
+        }
+
+        button {
+            display:block;
+            margin:5px;
+        }
+
+        .textEntry {
+margin-top:12px;
+margin-bottom: 15px;
+        }
+</Style>
+
+</head>
+<body>
+    <h1>MY HOBBIES</h1>
+    <p id="story">I want to share my hobbies with you all</p>
+    <button onclick="goDark()">GET SCARED!!(STRAYKIDS!)</button>
+    <div class="textEntry">SEE MY HOBBIES
+    <input type="text" id="name"></div>
+    <button onclick="typeAndScream()"> Please dont click me... or??</button>
+
+<button onclick="finishTheStory()">YAY!</button>
+<audio id="audio" src="http://reboot-me.com/ouch.mp3" type="audio/mpeg"></audio>
+<script>
+    function typeAndScream() {
+        document.getElementById("audio").play(); var personName = document.getElementById("name").value; alert("My favorite hobby is"+ personName);
+    }
+
+    function goDark() {
+        document.body.className = "dark";
+    }
+
+    function finishTheStory() {
+        document.getElementById("story").innerHTML = "I HOPE TO SEE YOU ALL AGAIN SOON!'";
+    }
+</script>
+</body>
+
+</html>
