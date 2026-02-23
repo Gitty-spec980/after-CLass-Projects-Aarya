@@ -20,38 +20,34 @@ display: inline;
 color: #1affa3;
 text-align: center;
 padding: 14px 16px;
-text-decoration: none;
+text-decoration: none;}
 
 .topnav a:hover{
 background-color:
 
-#111;
+#111;}
 
 background-color:
-color:
+color:}
 
 .pimg1, .pimg2, .pimg3{
 position:relative;
 anacttu-9 70-
 Specifies how background images are tiled after they have been sized and
 positioned.
-background-repeat:no-repeat;
+background-repeat:no-repeat;}
 
 -section{
 text-align:center;
-padding: 50px 80px;
+padding: 50px 80px;}
 
 .section-light{
-background-color: [#f4f4f4;
-color: #666;
-
-#ffe066;
-
-Tmeee;
+background-color:#f4f4f4;
+color: #666;}
 
 .section-dark{
 background-color: #282e34;
-color: O#ddd;
+color: O#ddd;}
 
 
 <section>
@@ -67,12 +63,12 @@ carousel();
 function carousel() {
 var 1;
 var x - document.getElementsByClassName("mySlides");
-for (1 = 0; 1 < x.length; 1++) {
-x[i].style.display = "none";
+for (1 = 0; 1 < x.length; 1++) 
+x[i].style.display = "none";}
 
 myIndex++;
 if (myIndex > x.length) {myIndex = 1}
 x[myIndex-1].style.display = "block";
 setTimeout(carouse1, 3000);
 
-</scriot>
+</script>
